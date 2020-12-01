@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">EuroScore II</string>
+    <string name="strAcerca_de">About…</string>
+    <string name="version">Version</string>
+    <string name="edad">Age:</string>
+    <string name="sexo">Sex:</string>
+    <string-array name="a_sexo">
+        <item name="Hombre">Man</item>
+        <item name="Mujer">Woman</item>
+    </string-array>
+    <string name="funci_n_renal">Renal impairment:</string>
+    <string-array name="a_funcion_renal">
+        <item name="Normal">CC &gt;85 mm/min"</item>
+        <item name="FR5085"> CC &gt;50 y &lt;85 ml/min"</item>
+        <item name="FR50">CC &lt;50 ml/min"</item>
+        <item name="Dialysis">Dialysis</item>
+    </string-array>
+    <string name="arteriopat_a_perif_rica">Extracardiac arteriopathy</string>
+    <string name="toast_arteriopatia">1. Claudication\n2. Carotid occlusion  or >50\u0025 stenosis\n3.  Amputation for arterial disease\n4. Previous or planned intervention</string>
+    <string name="movilidad_disminuida">Poor mobility</string>
+    <string name="cirug_a_card_aca_previa">Previous cardiac surgery</string>
+    <string name="epoc">Chronic lung disease</string>
+    <string name="endocarditis_activa">Active endocarditis</string>
+    <string name="paciente_cr_tico">Critical preoperative state</string>
+    <string name="toast_critico">"1. VT or VF or aborted SD.\n2. Preoperative cardiac massage\n3. Preoperative ventilation\n4. Preoperative inotropes or IABP\n5. Preoperative acute renal failure"</string>
+    <string name="diabetes_insulinodependiente">Diabetes on insulin</string>
+    <string name="clase_funcional_nyha">" \tNYHA"</string>
+    <string-array name="a_nyha">
+        <item name="uno">I</item>
+        <item name="dos">II</item>
+        <item name="tres">III</item>
+        <item name="cuatro">IV</item>
+    </string-array>
+    <string name="angina_clase_4_de_la_ccs">CCS class 4 angina</string>
+    <string name="funci_n_venricular">LV function</string>
+    <string-array name="a_fevi">
+        <item name="fevi1">LVEF&gt;50%</item>
+        <item name="fevi2">LVEF 31–50%</item>
+        <item name="fevi3">LVEF 21–30%</item>
+        <item name="fevi4">LVEF&lt;20%</item>
+    </string-array>
+    <string name="iam_reciente">Recent MI</string>
+    <string name="toast_iam_reciente">Myocardial infarction within 90 days</string>
+    <string name="strFormato_fecha">MM/dd/YYYY</string>
+    <string name="strAlerta">Attention</string>
+    <string name="strPasado_fecha">Out of date.\\nContact with the programator</string>
+    <string name="htp">Pulmonary hypertension</string>
+    <string-array name="a_htp">
+        <item name="htp1">no</item>
+        <item name="htp2">PA systolic 31–55 mmHg</item>
+        <item name="htp2">PA systolic &gt;55 mmHg</item>
+    </string-array>
+    <string name="urgencia">Urgency</string>
+    <string-array name="a_urgencia">
+        <item name="urgencia1">Elective</item>
+        <item name="urgencia2">Urgent</item>
+        <item name="urgencia3">Emergency</item>
+        <item name="urgencia4">Salvage</item>
+    </string-array>
+    <string name="annos">years</string>
+    <string name="resultado">Result</string>
+    <string name="cirug_a_a_rtica">Surgery on thoracic aorta</string>
+    <string name="relevancia">Weight of the intervention</string>
+    <string-array name="a_relevancia">
+        <item name="relevancia1">Isolated CABG</item>
+        <item name="relevancia2">Single no CABG</item>
+        <item name="relevancia3">2 procedures</item>
+        <item name="relevancia4">3 procedures</item>
+    </string-array>
+    <string name="toast_urgencia">1. Urgent: Patients who require intervention or surgery on the current admission for medical reasons.
+        \n2. Emergency: Operation before the beginning of the next working day.\n3. Salvage: Patients requiring cardiopulmonary resuscitation.</string>
+    <string name="toast_relevancia">"1. CABG\n2. Valve repair or replacement.\n3. Replacement of part of the aorta.\n4. Repair of a structural defect.\n5. MAZE procedure.\n6. Resection of  a cardiac tumour "</string>
+    <string name="toast_movilidad_disminuida">Severe impairment of mobility secondary to musculoskeletal or neurological dysfunction</string>
+    <string name="strDefinicion">EUROSCORE II calculates the mortality risk of patients undergoing Cardiac Surgery</string>
+    <string name="strGenaralidades">By keeping pressed some of the items we get a tab with additional information on the meaning of it. For example … what is meant by recent AMI?</string>
+    <string name="strAceptar">Accept</string>
+    <string name="strReferencias">References:\\n\\t1. Roques F, Nashef SA, Michel P, Gauducheau E, de Vincentiis C, Baudet E, Cortina J, David M, Faichney A, Gabrielle F, Gams E, Harjula A, Jones MT, Pintor PP, Salamon R, Thulin L.         Risk factors and outcome in European cardiac surgery: analysis of the EuroSCORE multinational database of 19030 patients.         Eur J Cardiothorac Surg. 1999 Jun;15(6):816–22; discussion 822–3.\\n\\t 2. Roques F, Michel P, Goldstone AR, Nashef SA.         The logistic EuroSCORE. Eur Heart J. 2003 May;24(9):882–3</string>
+    <string name="strBorrar_ficha">To delete all the marked items just keep the label that shows the result of the Euroscore II with the percentage of mortality pressed.</string>
+    <string name="strBajo">\nLow risk</string>
+    <string name="strModerado">\nModerate risk</string>
+    <string name="strAlto">\nHigh risk</string>
+    <string name="bajo_riesgo">Low risk</string>
+    <string name="riesgo_intremedio">Medium risk</string>
+    <string name="alto_riesgo">High risk</string>
+    <string name="riesgo_quir_rgico">Surgical risk</string>
+</resources>

@@ -1,0 +1,120 @@
+<resources>
+
+    <!--   Acerca de...   -->
+
+    <string name="strAcerca_de">Acerca de…</string>
+    <string name="strDefinicion">EUROSCORE II calcula el riesgo de mortalidad de los pacientes sometidos a Cirugía Cardíaca</string>
+    <string name="strGenaralidades">Al mantener presionados algunos de los ítems obtenemos una pestaña con información adicional del significado del mismo. Por ejemplo… qué se entiende por IAM reciente.</string>
+    <string name="strBorrar_ficha">Para borrar todos los ítems marcados solo hay que mantener presionada la etiqueta que nos muestra el resultado del Euroscore II con el porcentaje de mortalidad.</string>
+
+    <string name="strReferencias">Referencias:\n\t1. Roques F, Nashef SA, Michel P, Gauducheau E, de Vincentiis C, Baudet E, Cortina J, David M,
+        Faichney A, Gabrielle F, Gams E, Harjula A, Jones MT, Pintor PP, Salamon R, Thulin L.
+        Risk factors and outcome in European cardiac surgery: analysis of the EuroSCORE multinational database of 19030 patients.
+        Eur J Cardiothorac Surg. 1999 Jun;15(6):816-22; discussion 822-3.\n\t 2. Roques F, Michel P, Goldstone AR, Nashef SA.
+        The logistic EuroSCORE. Eur Heart J. 2003 May;24(9):882-3</string>
+
+    <!--    Fin Acerca de...   -->
+
+    <string name="app_name">EuroScore II</string>
+    <string name="version">Versión</string>
+    <string name="AcercadeJosera" translatable="false">\@JoseRa. Julio 2018\nquistabenasque@gmail.com</string>
+
+    <string name="edad">Edad:</string>
+    <string name="_00" translatable="false">00</string>
+    <string name="sexo">Sexo:</string>
+
+    <string-array name="a_sexo">
+        <item name="Hombre">Hombre</item>
+        <item name="Mujer">Mujer</item>
+    </string-array>
+
+
+    <string name="funci_n_renal">Función Renal:</string>
+    <string-array name="a_funcion_renal">
+        <item name="Normal">CC &gt;85 mm/min"</item>
+        <item name="FR5085"> CC &gt;50 y &lt;85 ml/min"</item>
+        <item name="FR50">CC &lt;50 ml/min"</item>
+        <item name="Diálisis">Dialisis</item>
+    </string-array>
+
+    <string name="arteriopat_a_perif_rica">Arteriopatía periférica</string>
+    <string name="toast_arteriopatia">1. Claudicación\n2. Oclusión o estenosis carotídea (>50%)\n3. Amputación\n4. Cirugía vascular previa o prevista</string>
+
+    <string name="movilidad_disminuida">Movilidad disminuida</string>
+    <string name="toast_movilidad_disminuida">Importante impedimento de la movilidad de causa neurológica o musculoesquelética.</string>
+
+    <string name="cirug_a_card_aca_previa">Cirugía cardíaca previa</string>
+    <string name="epoc">EPOC</string>
+    <string name="endocarditis_activa">Endocarditis activa</string>
+    <string name="paciente_cr_tico">Paciente crítico</string>
+    <string name="toast_critico">1. TV ó FV ó MS abortada.\n2. Masage cardíaco preoperatorio\n3. Ventilación preoperatoria\n4. Inotropos preoperatorios\n5. Fracaso renal agudo</string>
+
+    <string name="diabetes_insulinodependiente">Diabetes tratada con Insulina</string>
+    <string name="clase_funcional_nyha">Clase funcional NYHA</string>
+    <string-array name="a_nyha">
+        <item name="uno">I</item>
+        <item name="dos">II</item>
+        <item name="tres">III</item>
+        <item name="cuatro">IV</item>
+    </string-array>
+    <string name="angina_clase_4_de_la_ccs">Angina clase 4 de la CCS</string>
+    <string name="funci_n_venricular">Función venricular</string>
+    <string-array name="a_fevi">
+        <item name="fevi1">FEVI>50%</item>
+        <item name="fevi2">Entre 31 y 50%</item>
+        <item name="fevi3">Entre 21 y 30%</item>
+        <item name="fevi4">Menor del 20%"</item>
+    </string-array>
+
+    <string name="iam_reciente">IAM reciente</string>
+    <string name="toast_iam_reciente">IAM de menos de 90 días</string>
+
+    <string name="strFormato_fecha">dd/MM/YYYY</string>
+    <string name="strAlerta">Alerta</string>
+    <string name="strPasado_fecha">Programa pasado de fecha.\nContactar con el programador</string>
+    <string name="strFecha_fin" translatable="false">1/10/2022</string>
+    <string name="_55" translatable="false">55</string>
+    <string name="htp">Hipertensión pulmonar</string>
+    <string-array name="a_htp">
+        <item name="htp1">no</item>
+        <item name="htp2">Entre 31 y 55 mmHg</item>
+        <item name="htp2">Más de 55 mmHg</item>
+    </string-array>
+    <string name="urgencia">Urgencia</string>
+    <string-array name="a_urgencia">
+        <item name="urgencia1">Electiva</item>
+        <item name="urgencia2">Urgente</item>
+        <item name="urgencia3">Muy urgente</item>
+        <item name="urgencia4">Vital</item>
+    </string-array>
+
+    <string name="toast_urgencia">1. Urgente: Durante este ingreso\n2. Muy urgente: En menos de 24 horas\n3. Vital: Requiere RCP antes de la cirugía</string>
+
+    <string name="relevancia">Relevancia</string>
+    <string-array name="a_relevancia">
+        <item name="relevancia1">Solo C. coronaria</item>
+        <item name="relevancia2">Cirugía no coronaria</item>
+        <item name="relevancia3">2 procedimientos</item>
+        <item name="relevancia4">3 procedimientos</item>
+    </string-array>
+
+    <string name="toast_relevancia">1. CABG\n2. Reparación valvular\n3. Sustitución de parte de la Aorta\n4. Reparación de defecto estructural\n5. MAZE\n6. Resección tumoral</string>
+
+    <string name="cirug_a_a_rtica">Cirugía de aórta torácica</string>
+    <string name="resultado">Resultado</string>
+    <string name="annos">años</string>
+    <string name="strAceptar">Aceptar</string>
+    <string name="strBajo">\nBajo riesgo</string>
+    <string name="strModerado">\nRiesgo moderado</string>
+    <string name="strAlto">\nAlto riesgo</string>
+    <string name="_0_2" translatable="false">0-2</string>
+    <string name="bajo_riesgo">Bajo riesgo</string>
+    <string name="_3_5" translatable="false">3-5</string>
+    <string name="riesgo_intremedio">Riesgo intremedio</string>
+    <string name="m_s_de_6" translatable="false">Más de 6</string>
+    <string name="alto_riesgo">Alto riesgo</string>
+    <string name="riesgo_quir_rgico">Riesgo quirúrgico</string>
+    <string name="cincuenta_y_cinco" translatable="false">55</string>
+
+
+</resources>
